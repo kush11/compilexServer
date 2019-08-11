@@ -15,4 +15,10 @@ How to run the project
 1) navigate to the project folder -> go to js -> node server.js 
 2) open the inde.js
 
+
+Some Docker Command 
+
+docker inspect <container id> # to see the network ip address of the container
+
+
 Hurray !!! You have run the project

@@ -1065,10 +1065,10 @@ function submit_html() {
     var arg = document.getElementById("userArgument").value;
     var radioSelected = document.getElementById("inputRadio").value;
     console.log("code", code);
-    const curl = "http://172.30.13.202:2501/ccompiler";
-    const purl = "http://172.30.13.202:2501/pcompiler";
-    const jurl = "http://172.30.13.202:2501/jcompiler";
-    const csharp = "http://172.30.13.202:2501/csharpcompiler";
+    const curl = "http://172.17.0.2:2501/ccompiler";
+    const purl = "http://172.17.0.2:2501/pcompiler";
+    const jurl = "http://172.17.0.2:2501/jcompiler";
+    const csharp = "http://172.17.0.2:2501/csharpcompiler";
 
     let fetchData = {
         method: 'POST',
